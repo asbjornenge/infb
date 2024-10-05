@@ -1,8 +1,3 @@
-// STORAGE:
-// <account>/account.json
-// <account>/post1.md
-// <account>/post2.md
-
 const wrap = (fn, params={}) => {
   return async function(req) {
     const url = new URL(req.url)
